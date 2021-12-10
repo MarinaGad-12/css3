@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width:90%;
+    height: 400px;
+    background-color: #eee;
+    margin: auto;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.par{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+.subcontainer{
+    width: 90%;
+    height: 125px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.div1,.div2,.div3{
+    width: 33.33%;
+    height: 125px;
+    display: flex;
+    margin-top: 10px;
+}
+.fontawosome{
+    width: 20%;
+    height: 70px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.circle{
+    width: 90%;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 2.5px;
+
+}
+.details{
+    width: 40%;
+}
+.par2{
+    font-size: 15px;
+    font-weight: bold;
+}
+.par3{
+    font-size: 12px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.fa{
+    padding:15px;
+    color: #c02e38;
+}
+.fa-tree{
+    padding:19px;
+}
+.fontawosome:hover,.circle:hover{
+    background-color:  #c02e38;
+    border-color: #c02e38 ;
+    
+}
+
+
+.fa:hover{
+    
+    color: #fff;
+}

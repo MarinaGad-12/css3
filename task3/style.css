@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.subcontainer{
+    width: 20%;
+    height: 600px;
+    margin-top: 100px;
+}
+.topdiv{
+    width: 120px;
+    height: 315px;
+    background-color:#000;
+    margin: auto;
+    padding:5px;
+}
+.red,.yellow,.green{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 10px;  
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.bottomdiv{
+    width: 20px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    left: 122px;
+}
+
+.red:hover{
+ box-shadow: 0 0 50px rgba(212, 56, 8, 0.9);
+ transition: all 0.5s ease-in-out;
+ transform: scale(1.1,1.1);
+    
+}
+.yellow:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 50px rgba(243, 247, 14, 0.9);
+    transform: scale(1.1,1.1);
+       
+   }
+   .green:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 50px rgba(10, 228, 10, 0.9);
+    transform: scale(1.1,1.1);
+       
+   }
+   .gifdiv{
+    width: 80%;
+    height: 600px;
+    margin-top: 100px;
+    
+}
+   .gifboy {
+    width: 200px;
+    height: 300px;
+    background: url("img/1.gif") 0 0;
+    transform: rotateY(180deg);
+    margin-top: 200px;
+    animation: move 7s infinite;
+    position: absolute;
+    transition: all 8s ease-in-out;
+  }
+
+  @keyframes move {
+    0% {
+        right: 0%;
+    }
+
+    100% {
+        right:65%;
+         transform: rotateY(-180deg); 
+    }
+}

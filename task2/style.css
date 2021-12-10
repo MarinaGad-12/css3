@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width:90%;
+    height: 400px;
+    background-color: #eee;
+    margin: auto;
+}
+.subcontainer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 50px;
+}
+.subcontainer2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.pic1,.pic2,.pic3,.pic4{
+   width: 25%;
+   height: 200px;
+}
+.pic1
+{
+	background: url("img/1.jpeg")no-repeat;
+    background-size:cover;
+}
+.pic2
+{
+	background: url("img/2.jpeg")no-repeat;
+    background-size: cover;
+}
+.pic3
+{
+	background: url("img/3.jpeg")no-repeat;
+    background-size: cover;	
+}
+.pic4
+{
+	background: url("img/4.jpeg")no-repeat;
+    background-size: cover;
+}
+
+.divhover{
+    width: 100%;
+    height: 200px;
+    background-color:rgba(198, 44, 46, 1) ;
+    opacity: 0;
+    
+}
+.divhover:hover{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.par1{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px 20px 5px 40px;
+}
+.par2{
+    color: #fff;
+    font-size: 12px;
+    padding: 20px 20px 5px 40px;
+}
+.fontawsome{
+    display: flex;
+}
+.fontawsome p{
+    color: #fff;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.fa-eye{
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 20px;
+}
